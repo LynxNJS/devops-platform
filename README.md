@@ -11,3 +11,4 @@ It contains infrastructure artifacts, CI/CD pipelines, IaC, Kubernetes manifests
 - helm/ — Helm charts
 - terraform/ — AWS IaC
 - ansible/ — server bootstrap automation
+“Prerequisites: terminal + Git”
