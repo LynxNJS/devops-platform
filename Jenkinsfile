@@ -1,8 +1,9 @@
+timestamps{
 pipeline {
   agent any
 
   options {
-    timestamps()
+    
     disableConcurrentBuilds()
     timeout(time: 10, unit: 'MINUTES')
   }
@@ -75,5 +76,6 @@ pipeline {
       echo "Failure: open Console Output, check which stage failed."
     }
   }
+}
 }
 EOF
