@@ -1,4 +1,4 @@
-timestamps{
+
 pipeline {
   agent any
 
@@ -77,5 +77,5 @@ pipeline {
     }
   }
 }
-}
+
 EOF
